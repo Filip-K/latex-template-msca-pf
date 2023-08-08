@@ -1,0 +1,17 @@
+template msca.pdf
+*.aux
+*.synctex.gz
+*_latexmk
+*.fls
+*.log
+*.bbl
+*.blg
+*.out
+*Notes.bib
+*.toc
+*.xdv
+.vscode
+# BibLaTeX
+*.bcf
+*.run.xml
+*(busy)*

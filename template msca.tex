@@ -1,0 +1,84 @@
+\documentclass[11pt]{article}
+\usepackage[
+	a4paper,
+	includehead,
+	includefoot,
+	nomarginpar,
+	top=13mm,
+	bottom=19mm,
+	left=25mm,
+	right=25mm,
+	headheight=28pt,
+	headsep=.5\baselineskip,
+	footskip=18pt,
+	% showframe,
+]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{newtxtext,newtxmath,fancyhdr,lastpage,xcolor,titlesec,microtype}
+
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{header-gray}{gray}{0.5}
+\definecolor{box-gray}{gray}{0.84}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{\fontsize{8}{9.6} \sffamily Call: [insert call identifier] -- [insert call name]\\\phantom{}\\}
+\fancyhead[R]{\fontsize{8}{9.6} \sffamily \color{header-gray} EU Grants: Application form (HE MSCA PF): V1.1 -- 05.05.2022}
+\fancyfoot[C]{\fcolorbox{black}{box-gray}{\makebox[\dimexpr\textwidth-4mm]{\fontsize{9}{10.8} \sffamily Part B - Page \thepage\ of \pageref{LastPage}\strut}}}
+
+\titleformat{\section}{\fontsize{14}{16.8} \bfseries}{\thesection. }{0pt}{}
+\titleformat{\subsection}[block]{\fontsize{12}{14.4} \bfseries \itshape}{\thesubsection}{7mm}{}
+
+\begin{document}
+
+\begin{center}
+	\fontsize{14}{16.8} \bfseries \underline{Part B-1}
+\end{center}
+
+\section{Excellence}
+
+\subsection{Quality and pertinence of the project’s research and innovation objectives (and the extent to which they are ambitious, and go beyond the state of the art)}
+
+Insert here text for your proposal
+
+\subsection{Soundness of the proposed methodology (including interdisciplinary approaches, consideration of the gender dimension and other diversity aspects if relevant for the research project, and the quality of open science practices)}
+
+Insert here text for your proposal
+
+\subsection{Quality of the supervision, training and of the two-way transfer of knowledge between the researcher and the host}
+
+Insert here text for your proposal
+
+\subsection{Quality and appropriateness of the researcher’s professional experience, competences and skills}
+
+Insert here text for your proposal
+
+\section{Impact}
+
+\subsection{Credibility of the measures to enhance the career perspectives and employability of the researcher and contribution to his/her skills development}
+
+Insert here text for your proposal
+
+\subsection{Suitability and quality of the measures to maximise expected outcomes and impacts, as set out in the dissemination and exploitation plan, including communication activities}
+
+Insert here text for your proposal
+
+\subsection{The magnitude and importance of the project’s contribution to the expected scientific, societal and economic impacts}
+
+Insert here text for your proposal
+
+\section{Quality and Efficiency of the Implementation}
+
+\subsection{Quality and effectiveness of the work plan, assessment of risks and appropriateness of the effort assigned to work packages}
+
+Insert here text for your proposal
+
+\subsection{Quality and capacity of the host institutions and participating organisations, including hosting arrangements}
+
+Insert here text for your proposal
+
+\end{document}
